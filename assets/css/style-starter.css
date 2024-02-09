@@ -2324,7 +2324,7 @@
   padding-left: 20px; }
 
 .w3l-inner-banner-main .about-inner {
-  background: url(../images/2.jpg) no-repeat center;
+  background: url(../images/2.0.jpg) no-repeat center;
   padding: 30px 0px 30px;
   background-size: cover;
   -webkit-background-size: cover;
@@ -2626,7 +2626,9 @@
   padding: 0px; }
 
 .w3l-header-4 .navbar .navbar-brand img {
-  max-width: 140px;
+  max-width: 90px;
+  display: flex;
+  align-items:center;
   transition: all 0.5s ease; }
 
 .w3l-header-4 .navbar-expand-lg .navbar-nav .nav-item:last-child {
@@ -3035,7 +3037,7 @@
     -moz-transition: 0.3s ease-in;
     -ms-transition: 0.3s ease-in; }
   .w3l-main-slider .banner-view {
-    background: url(../images/1.jpg) no-repeat center;
+    background: url(../images/1.jpeg) no-repeat center;
     background-size: cover;
     min-height: calc(100vh - 50px);
     position: relative;
@@ -3043,7 +3045,7 @@
     display: grid;
     align-items: center; }
   .w3l-main-slider .banner-top1 {
-    background: url(../images/2.jpg) no-repeat center;
+    background: url(../images/2.0.jpg) no-repeat center;
     background-size: cover; }
   .w3l-main-slider .banner-view:before {
     content: "";
@@ -11732,7 +11734,8 @@ body,
 html {
   margin: 0;
   padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif; }
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+ Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif; }
 
 * {
   box-sizing: border-box; }
